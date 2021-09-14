@@ -3,7 +3,38 @@
     {
       "id": 1,
       "title": "сани большие",
-      "image": ""
+      "image": "https://c.radikal.ru/c39/2109/1b/d0513c30e13b.jpg",
+      "price": "23UAN"
+    },
+    {
+      "id": 2,
+      "title": "сани большие",
+      "image": "https://d.radikal.ru/d26/2109/d3/c6801067d700.jpg",
+      "price": "23UAN"
+    },
+    {
+      "id": 3,
+      "title": "сани большие",
+      "image": "https://d.radikal.ru/d14/2109/0d/8c1dbac61597.jpg",
+      "price": "23UAN"
+    },
+    {
+      "id": 4,
+      "title": "сани большие",
+      "image": "https://d.radikal.ru/d22/2109/b2/0fe2d1cee95b.jpg",
+      "price": "23UAN"
+    },
+    {
+      "id": 5,
+      "title": "сани большие",
+      "image": "https://d.radikal.ru/d25/2109/2f/fe07d574d9c9.jpg",
+      "price": "23UAN"
+    },
+    {
+      "id": 6,
+      "title": "сани большие",
+      "image": "https://d.radikal.ru/d19/2109/10/8f893da07984.jpg",
+      "price": "23UAN"
     }
   ]
 }

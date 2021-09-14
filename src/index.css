@@ -1,0 +1,11 @@
+img {
+  width: 150px;
+}
+.production-card {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+}
+.production-card:last-child {
+  margin-right: 0;
+}
