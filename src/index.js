@@ -1,26 +1,5 @@
 const wrapper = document.querySelector(".wrapper");
 
-class Card {
-  constructor(data, continer = wrapper) {
-    this.title = data.title;
-    this.src = data.image;
-    this.price = data.price;
-    this.card = document.createElement("div");
-    this.card.classList.add("production-card");
-    this.card.innerHTML = this.template();
-    continer.appendChild(this.card);
-  }
-
-  template() {
-    return `<h2 class="production-menu">${this.title}</h2>
-      <div class="production-image">
-        <img src="${this.src}" alt="${this.title}" />
-      </div>
-      <p class="production-price">${this.price}</p>
-      `;
-  }
-}
-
 class Slider {
   constructor(container = document.body) {
     this.sliderSection = container.appendChild(document.createElement("div"));
@@ -88,11 +67,6 @@ class Slider {
           slidNumber
         }px`,
         height: "auto",
-        // height: `${
-        //   (this.sliderSection.offsetWidth -
-        //     (this.sliderSection.offsetWidth / 100) * (slidNumber * 4)) /
-        //   slidNumber
-        // }px`,
       })
     );
   }

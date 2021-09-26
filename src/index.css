@@ -7,38 +7,6 @@ p {
 .wrapper {
   padding: 30px;
 }
-.blue {
-  background: blue;
-  order: 1;
-}
-.orange {
-  background: orange;
-  order: 2;
-}
-.violet {
-  background: violet;
-  order: 3;
-}
-.pink {
-  background: pink;
-  order: 4;
-}
-.red {
-  background: red;
-  order: 5;
-}
-.lime {
-  background: lime;
-  order: 6;
-}
-.green {
-  background: green;
-  order: 7;
-}
-.grey {
-  background: grey;
-  order: 8;
-}
 .slider {
   display: flex;
   flex-wrap: nowrap;
@@ -76,7 +44,7 @@ p {
 .arrow-left:before {
   content: " ";
   position: absolute;
-  top: 50%;
+  top: 200px;
   left: 50%;
   width: 50%;
   border: 2px solid grey;
@@ -93,11 +61,11 @@ p {
 }
 .arrow-left:after,
 .arrow-right:after {
-  transform: translate(-50%, 50%) rotate(-45deg);
+  transform: translate(-50%, 0) rotate(-45deg);
 }
 .arrow-left:before,
 .arrow-right:before {
-  transform: translate(-50%, 50%) rotate(45deg);
+  transform: translate(-50%, 0) rotate(45deg);
 }
 .slid {
   margin-right: 2%;
@@ -107,4 +75,32 @@ p {
 }
 img {
   width: 100%;
+}
+.cardTextContent {
+  max-height: 60px;
+  overflow: hidden;
+  position: relative;
+}
+.cardTextContent:after {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(transparent, white);
+}
+.cardBtnContent {
+  background: transparent;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  color: green;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: green;
 }
